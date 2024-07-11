@@ -6,8 +6,8 @@ public class interestRate {
         return (amount*0.05);
     }
     public static void main(String args[]){
-        //asbtract classes cannot be instatiated
-        //interestRate ir=new interestRate();
+        //abstract classes cannot be instatiated
+        //state of the class at that instance; the snapshot of the class
         interestRate ir = new interestRate();
         System.out.println(ir.calculateInterest(10000));
     } 
