@@ -1,4 +1,8 @@
 public class sofr extends interestRate {
+    public sofr(){
+        super();
+        System.out.println("This is the derived class constructor");
+    }
     //overriding the base class methods
     @Override
     public double calculateInterest(double amount){
